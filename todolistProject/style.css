@@ -1,0 +1,71 @@
+body {	
+	width: 960px;
+	margin: 20px auto;
+}
+
+.header{
+	border: solid;
+	background-color: #e8c033;	
+	height: 200px;
+}
+
+.header p{	
+	text-align: center;
+	font-family: serif;
+	font-size: 30px;	
+}
+
+#input{
+	float: left;
+	border: none;
+	width: 75%;
+	margin-left: 50px;
+	font-size: 25px;
+	background-color: #f2edde;
+}
+
+#addBtn{
+	border: none;	
+	float: left;
+	line-height: 29px;
+	background-color: #39e5da;
+}
+.addBtn:hover{
+	background-color: #f44476;
+}
+
+ul li{
+	list-style: none;
+	cursor: pointer;
+	border-bottom: 1px solid;
+	margin: 5px auto;	
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+
+ul li span{
+	margin-left: 20px;	
+	font-size: 25px;
+}
+
+.remove{	
+	float: right;
+	background-image: url(trashbin.png);
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 30px;
+	margin-right: 20px;		
+}
+
+.remove:hover{
+	background-image: url(trashbin2.png);
+	background-repeat: no-repeat;
+}
+
+.list ul:nth-child(even){
+	background-color: #f2edde;
+}
+
+.checked{
+	text-decoration: line-through;
+}
